@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img class="background_img" src="images/ryunosuke-kikuno-lfAys7KTGCs-unsplash.jpg">
+    <div class="form_contents">
+        <div class="header"><div style="margin-left: 100px;"><!--Sign Up for more Waves!--></div></div>
+        <div class="form">
+            <form action="#" method="post" id="my-form">
+                <div class="form-container">
+                    <span>
+                        <label for="first-name" style="display:block">FIRST NAME</label>
+                        <input type="text" id="first-name" required/>
+                    </span>
+        
+                    <span>
+                            <label for="last-name" style="display: block;">LAST NAME</label>
+                            <input type="text" id="last-name" required/>
+                    </span>
+
+                    <span>
+                        <label for="email" style="display: block;">EMAIL</label>
+                        <input type="email" id="email" required/>
+                    </span>
+
+                    <span>
+                        <label for="phone_no" style="display: block;">PHONE NUMBER</label>
+                        <input type="text" id="phone_no" max="10" required/>
+                    </span>
+
+                    <span>
+                        <label for="password" style="display: block;">PASSWORD</label>
+                        <input type="text" id="password" required/>
+                    </span>
+
+                    <span>
+                        <label for="confirm-password" style="display: block;">CONFIRM PASSWORD</label>
+                        <input type="text" id="confirm-password" required/>
+                    </span>
+                </div>
+                
+                
+            </form>
+        </div>
+        <div class="footer">
+            <button type="submit" form="my-form">Create Account</button><br>
+            Already a member? <a href="#">Log In</a>
+        </div>
+    </div>
+</body>
+</html>

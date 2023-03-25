@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+:root{
+font-family: 'Open Sans', sans-serif;
+}
+html {
+    background-color: rgb(40, 40, 40);
+}
+
+body {
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+}
+
+.background_img {
+    margin-left: 300px;
+    height: 100vh;
+    width: auto;
+}
+
+.form_contents {
+    background-color: white;
+
+}
+
+
+
+.header {
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form-container {
+    margin-left: 50px;
+    gap: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: x-small;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.footer {
+    margin: 50px 50px;
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(0, 94, 255);
+    border-radius: 9px;
+}
+
+a {
+    color: rgb(0, 94, 255);
+    text-decoration: none;
+}
+
